@@ -9,14 +9,13 @@ Este proyecto implementa detección de objetos en tiempo real usando GStreamer, 
 - Hailo SDK
 - CMake >= 3.14
 
+## Ejecucion en ../build
+
+./hailo_detection --vehicles --usb
+
 ## Compilación
 
 ```bash
 mkdir build && cd build
 cmake ..
 make
-
-
-## Ejecucion
-```bash
-./hailo_detection --vehicles --usb
