@@ -15,8 +15,8 @@ Este proyecto implementa detección de objetos en tiempo real usando GStreamer, 
 mkdir build && cd build
 cmake ..
 make
-´´´
+
 
 ## Ejecucion
-
+```bash
 ./hailo_detection --vehicles --usb
