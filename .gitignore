@@ -1,0 +1,8 @@
+build/
+*.o
+*.so
+*.log
+*.jpg
+*.png
+*.swp
+*.DS_Store
