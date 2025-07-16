@@ -30,3 +30,6 @@ target_link_libraries(hailo_detection
     ${GSTREAMER_LIBRARIES}
     ${GLIB_LIBRARIES}
 )
+
+# Habilitar warnings
+target_compile_options(hailo_detection PRIVATE -Wall -Wextra -Wpedantic)
